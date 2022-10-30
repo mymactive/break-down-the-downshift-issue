@@ -45,7 +45,7 @@ export const AsyncExample: FC = () => {
 
   return (
     <div>
-      <h1>Async Example</h1>
+      <h1 className="font-bold text-xl">Async Example</h1>
       <label {...getLabelProps()}>
         <span className="block">Enter a book title:</span>
         <input className="border border-black" {...getInputProps()} />

@@ -41,7 +41,7 @@ export const SimpleExample: FC = () => {
 
   return (
     <div>
-      <h1>Simple Example</h1>
+      <h1 className="font-bold text-xl">Simple Example</h1>
       <label {...getLabelProps()}>
         <span className="block">Enter a book title:</span>
         <input className="border border-black" {...getInputProps()} />
